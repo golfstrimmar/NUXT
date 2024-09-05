@@ -7,6 +7,8 @@ header
           NuxtLink(to='/') Home
         li
           NuxtLink(to='/about') About
+        li
+          NuxtLink(to='/users') Users
 
 
 </template>
