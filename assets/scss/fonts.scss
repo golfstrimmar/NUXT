@@ -1,7 +1,16 @@
 @font-face {
+  font-family: "RR";
+  src: url("@/assets/fonts/RiccionerandomRegular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "MuseoSansCyrl-300";
-  src: url("../fonts/MuseoSansCyrl-300.woff2");
-  src: url("../fonts/MuseoSansCyrl-300.woff");
+  src: url("@/fonts/MuseoSansCyrl-300.woff2");
+  src: url("@/fonts/MuseoSansCyrl-300.woff");
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -9,8 +18,8 @@
 }
 @font-face {
   font-family: "HouschkaPro-DemiBold";
-  src: url("../fonts/HouschkaPro-DemiBold.woff2");
-  src: url("../fonts/HouschkaPro-DemiBold.woff");
+  src: url("@/fonts/HouschkaPro-DemiBold.woff2");
+  src: url("@/fonts/HouschkaPro-DemiBold.woff");
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -18,8 +27,8 @@
 }
 @font-face {
   font-family: "HouschkaPro-Bold";
-  src: url("../fonts/HouschkaPro-Bold.woff2");
-  src: url("../fonts/HouschkaPro-Bold.woff");
+  src: url("@/fonts/HouschkaPro-Bold.woff2");
+  src: url("@/fonts/HouschkaPro-Bold.woff");
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -27,8 +36,8 @@
 }
 @font-face {
   font-family: "Roboto-Light";
-  src: url("../fonts/Roboto-Light.woff2");
-  src: url("../fonts/Roboto-Light.woff");
+  src: url("@/fonts/Roboto-Light.woff2");
+  src: url("@/fonts/Roboto-Light.woff");
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -36,8 +45,8 @@
 }
 @font-face {
   font-family: "Roboto-Regular";
-  src: url("../fonts/Roboto-Regular.woff2");
-  src: url("../fonts/Roboto-Regular.woff");
+  src: url("@/fonts/Roboto-Regular.woff2");
+  src: url("@/fonts/Roboto-Regular.woff");
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
@@ -45,8 +54,8 @@
 }
 @font-face {
   font-family: "Roboto-Medium";
-  src: url("../fonts/Roboto-Medium.woff2");
-  src: url("../fonts/Roboto-Medium.woff");
+  src: url("@/fonts/Roboto-Medium.woff2");
+  src: url("@/fonts/Roboto-Medium.woff");
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -54,8 +63,8 @@
 }
 @font-face {
   font-family: "Roboto-Bold";
-  src: url("../fonts/Roboto-Bold.woff2");
-  src: url("../fonts/Roboto-Bold.woff");
+  src: url("@/fonts/Roboto-Bold.woff2");
+  src: url("@/fonts/Roboto-Bold.woff");
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;

@@ -1,5 +1,5 @@
 <template lang='pug'>
-section
+.container
   h1 about
 </template>
 <script setup>
