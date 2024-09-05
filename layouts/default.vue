@@ -2,5 +2,5 @@
 div
   AppHeader
   slot
-  AppFooter
+  //- AppFooter
 </template>
