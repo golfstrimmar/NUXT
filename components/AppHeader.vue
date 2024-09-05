@@ -8,7 +8,7 @@ header
         li
           NuxtLink(to='/about') About
         li
-          NuxtLink(to='/users') Users
+          NuxtLink(to='/products') Products
 
 
 </template>
