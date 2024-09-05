@@ -1,8 +1,13 @@
 <template lang='pug'>
-div
+.wrapper
   NuxtLayout
-    NuxtPage
+    main
+      NuxtPage
 </template>
 <script setup>
 </script>
-<style lang='scss'></style>
+<style lang='scss'>
+body {
+  font-family: "MuseoSansCyrl-300", sans-serif;
+}
+</style>
