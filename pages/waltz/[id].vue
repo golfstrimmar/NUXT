@@ -27,5 +27,6 @@ definePageMeta({
 // Обрабатываем событие "Fertig" из дочернего компонента
 const handleFertig = (isLoaded) => {
   dataLoaded.value = isLoaded
+ 
 }
 </script>

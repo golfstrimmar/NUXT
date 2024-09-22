@@ -88,6 +88,7 @@ const fetchData = async () => {
 	const subCollectionArrayFOLLOW = subQuerySnapshotFOLLOW.docs.map(subDocSnapshot => ({
 		...subDocSnapshot.data()
 	}));
+
 	try {
 		const docSnap = await getDoc(doc(db, tanz, id));
 		if (docSnap.exists()) {
@@ -98,7 +99,7 @@ const fetchData = async () => {
 	} catch (e) {
 		console.error("Error getting document: ", e);
 	}
-
+	
 
 
 
@@ -114,11 +115,16 @@ const fetchData = async () => {
 	} else {
 		documentsLady.value = subCollectionArrayLady[0];
 	}
+	
+	emit('Fertig', true)
+
 	documentsPRECEDE.value = subCollectionArrayPRECEDE;
 	documentsFOLLOW.value = subCollectionArrayFOLLOW;
 	keys.value = Object.keys(documentsMan.value)
+
 	
-	emit('Fertig', true)
+	
+
 };
 
 onMounted(async () => {
